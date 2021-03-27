@@ -51,12 +51,12 @@ textarea:focus {
 /* Banner */
 
 #banner {
-  height: 100vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /*background-image:  url("/img/3.jpg");*/
+ /* background-image:  url("/img/3.jpg"); */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -75,7 +75,7 @@ textarea:focus {
   font-size: 40px;
 }
 
-/* Search Box */
+
 
 
 
@@ -116,7 +116,8 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   height: 100%;
-  margin: 0;
+  margin: auto;
+ 
 }
 
 .active {
@@ -135,19 +136,8 @@ nav ul {
   align-items: center;
 }
 
-/* Search Icon */
 
-#search-icon {
-  color: rgb(247, 3, 3);
-  padding: 0 32px;
-  margin-left: 832px;
-  cursor: pointer;
-  transition: 0.4s;
-}
 
-#search-icon:hover {
-  color: rgb(0, 101, 141);
-}
 
 /* Slideout Menu */
 
@@ -446,9 +436,7 @@ footer #social-media-footer ul li:hover a .fa-instagram {
     display: block;
   }
 
-  #searchbox {
-    display: none;
-  }
+  
 
   #blogpost{
     width:100%;

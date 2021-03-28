@@ -2,6 +2,7 @@
 body {
   font-family: 'Bungee Inline', sans-serif;
   margin: 0;
+
 }
 
 h1 {
@@ -66,6 +67,12 @@ textarea:focus {
   
 }
 
+canvas {
+  display: block;
+  
+
+ 
+}
 
 
 #banner h3 {
@@ -510,6 +517,11 @@ footer #social-media-footer ul li:hover a .fa-instagram {
     text-align: center;
   }
 
+  .first {
+    text-align: center;
+    width: 100%;
+  }
+
   #logo-img {
     padding: 0;
   }
@@ -522,6 +534,8 @@ footer #social-media-footer ul li:hover a .fa-instagram {
   .card {
     width: 45%;
   }
+
+
   .card .card-image img {
     width: 100%;
   }

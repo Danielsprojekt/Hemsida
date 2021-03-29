@@ -14,8 +14,9 @@ h1 {
  
 }
 h3 {
-  
- margin: 0;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 0;
   font-size: 20px;
 
 }
@@ -84,7 +85,7 @@ nav ul {
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
-  margin: 0;
+  margin: auto;
  
 }
 
@@ -155,7 +156,7 @@ section {
 
 
 .section-heading {
-  font-size: 35px;
+  font-size: 20px;
   font-family: "Roboto Condensed", sans-serif;
   transition: all 0.4s;
   display: inline-block;

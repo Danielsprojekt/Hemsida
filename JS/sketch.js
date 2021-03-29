@@ -1,7 +1,7 @@
 // Two ArrayLists to store the vertices for two shapes
 // This example assumes that each shape will have the same
 // number of vertices, i.e. the size of each ArrayList will be the same
-let circle = [];
+let circle = newFunction();
 let square = [];
 
 // An ArrayList for a third set of vertices, the ones we will be drawing
@@ -10,6 +10,10 @@ let morph = [];
 
 // This boolean variable will control if we are morphing to a circle or square
 let state = false;
+
+function newFunction() {
+  return [];
+}
 
 function setup() {
  var canvas =  createCanvas(640, 480);

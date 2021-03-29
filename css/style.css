@@ -55,7 +55,7 @@ a:hover {
 /* Navigation */
 
 nav {
-  height: 30px;
+  height: 90px;
   background: #4c5269;
   width: 100%;
   margin: 0;
@@ -68,9 +68,9 @@ nav {
 }
 
 nav a {
-  padding: 0 3vw;
+  padding: 0 1.2vw;
   color: #eee;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 nav a:hover {
@@ -79,9 +79,9 @@ nav a:hover {
 }
 
 nav ul {
-  display: flex;
+  display: inline-flex;
   list-style: none;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   height: 100%;
   margin: auto;
@@ -265,9 +265,8 @@ footer #ord
 }
 
 footer #social-media-footer a .fa-facebook,
-footer #social-media-footer a .fa-snapchat
-footer #social-media-footer a .fa-instagram
-footer #social-media-footer a .fa-youtube,
+footer #social-media-footer a .fa-youtube
+footer #social-media-footer a .fa-github,
 footer #social-media-footer a .fa-linkedin
  {
   color: white;
@@ -398,10 +397,8 @@ footer #social-media-footer ul li:hover a .fa-youtube {
 /* Media Queries */
 
 @media (max-width: 900px) {
-  nav ul {
-    display: 70%;
-  }
-}
+  
+
 
 
 
@@ -412,14 +409,14 @@ footer #social-media-footer ul li:hover a .fa-youtube {
     border-left:0;
   }
 
-  
+  }
 
 
 @media (max-width: 719px) {
   main {
+
     width: 95%;
   }
-
 
   section {
     flex-direction: column;
@@ -452,6 +449,9 @@ footer #social-media-footer ul li:hover a .fa-youtube {
     width: auto\9; 
   }
 
+  
+  
+
   h1 {
     font-size: 48px;
   }
@@ -476,7 +476,7 @@ footer #social-media-footer ul li:hover a .fa-youtube {
   }
 
   #banner h3 {
-    font-size: 20px;
+    font-size: 0px;
   }
 
   .card {

@@ -19,7 +19,7 @@ function newFunction() {
 function setup() {
  var canvas =  createCanvas(360, 280);
 
-  // ? 
+ 
   canvas.parent('first');
 
   // Create a circle using vectors pointing from center

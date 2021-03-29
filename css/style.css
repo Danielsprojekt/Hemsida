@@ -292,10 +292,7 @@ footer #social-media-footer ul li {
 footer #social-media-footer ul li:hover a .fa-youtube {
   color: red;
 }
-footer #social-media-footer ul li:hover a .fa-instagram {
-    color: rgb(240, 130, 6);
-  }
-  footer #social-media-footer ul li:hover a .fa-snapchat {
+  footer #social-media-footer ul li:hover a .fa-github {
     color: rgb(227, 240, 48);
   }
   footer #social-media-footer ul li:hover a .fa-linkedin {
@@ -371,9 +368,6 @@ footer #social-media-footer ul li:hover a .fa-instagram {
   width:100%;
 }
 
-#blogpost .card-image:hover{
-  box-shadow: none;
-}
 
 /* Sidebar */
 
@@ -405,16 +399,11 @@ footer #social-media-footer ul li:hover a .fa-instagram {
 
 @media (max-width: 900px) {
   nav ul {
-    display: none;
+    display: 70%;
   }
+}
 
-  #menu-icon {
-    display: flex;
-  }
 
-  #slideout-menu {
-    display: block;
-  }
 
   
 
@@ -423,23 +412,25 @@ footer #social-media-footer ul li:hover a .fa-instagram {
     border-left:0;
   }
 
-  #sidebar{
-    display: none;
-  }
-}
+  
 
-@media (max-width: 720px) {
+
+@media (max-width: 719px) {
   main {
     width: 95%;
   }
 
+
   section {
     flex-direction: column;
   }
+  
 
   .card,
   .card .card-image img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
   }
 
   footer {
@@ -447,39 +438,41 @@ footer #social-media-footer ul li:hover a .fa-instagram {
     text-align: center;
   }
 
-  
-
-  footer #right-footer {
-    background: #eee;
-    color: black;
+ 
+}
+@media (max-width: 500px) {
+  main {
+    width: 100%;
   }
 
-  footer #right-footer a {
-    color: black;
+  .card,
+  .card .card-image img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
   }
 
-  footer #social-media-footer a .fa-facebook,
-  footer #social-media-footer a .fa-snapchat
-  footer #social-media-footer a .fa-instagram
-  footer #social-media-footer a .fa-youtube,
-  footer #social-media-footer a .fa-linkedin
-  
- {
-    color: black;
-    transition: 0.4s;
-   
+  h1 {
+    font-size: 48px;
+  }
+
+  #banner h3 {
+    font-size: 40px;
+  }
+
+  .card {
+    text-align: center;
   }
 
  
-  }
-
-@media (max-width: 600px) {
+}
+@media (max-width: 550px) {
   main {
     width: 100%;
   }
 
   h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
 
   #banner h3 {
@@ -490,14 +483,7 @@ footer #social-media-footer ul li:hover a .fa-instagram {
     text-align: center;
   }
 
-  .first {
-    text-align: center;
-    width: 100%;
-  }
-
-  #logo-img {
-    padding: 0;
-  }
+  
 }
 
 @media (min-width: 720px) {
@@ -507,8 +493,6 @@ footer #social-media-footer ul li:hover a .fa-instagram {
   .card {
     width: 45%;
   }
-
-
   .card .card-image img {
     width: 100%;
   }
@@ -516,7 +500,6 @@ footer #social-media-footer ul li:hover a .fa-instagram {
 
 @media (min-width: 1200px) {
   main {
-   
-    width: 95%;
+    width: 85%;
   }
 }

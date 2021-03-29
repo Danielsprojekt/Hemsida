@@ -1,6 +1,7 @@
 // Two ArrayLists to store the vertices for two shapes
 // This example assumes that each shape will have the same
 // number of vertices, i.e. the size of each ArrayList will be the same
+
 let circle = newFunction();
 let square = [];
 
@@ -16,7 +17,7 @@ function newFunction() {
 }
 
 function setup() {
- var canvas =  createCanvas(640, 480);
+ var canvas =  createCanvas(360, 280);
 
   // ? 
   canvas.parent('first');

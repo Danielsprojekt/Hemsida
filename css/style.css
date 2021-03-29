@@ -79,12 +79,12 @@ nav a:hover {
 }
 
 nav ul {
-  display: inline-flex;
+  display: flex;
   list-style: none;
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
-  margin: auto;
+  margin: 0;
  
 }
 

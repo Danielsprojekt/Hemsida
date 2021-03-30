@@ -23,6 +23,8 @@ h3 {
 
 }
 
+
+
 p {
   
   line-height: 1.9;
@@ -156,6 +158,12 @@ section {
   flex-wrap: wrap;
 }
 
+.me{
+  padding: 8px;
+  text-align: center;
+  
+
+}
 
 .section-heading {
   font-size: 20px;
@@ -163,8 +171,9 @@ section {
   transition: all 0.4s;
   display: inline-block;
   padding: 4px 32px;
+
   
-  
+
 }
 
 .section-heading:hover {
@@ -309,14 +318,13 @@ footer #social-media-footer ul li:hover a .fa-youtube {
 /* Blog List page */
 
 .page-heading{
-  font-size:32px;
+  font-size:30px;
   font-family:'Roboto Condensed', sans-serif;
-  border-left:3px solid black;
-  border-right:3px solid black;
   transition: all 0.4s;
   display:inline-block;
   padding:4px 32px;
   margin-top: 120px;
+  
 }
 
 
@@ -377,29 +385,23 @@ footer #social-media-footer ul li:hover a .fa-youtube {
 /***************** Media Queries **************************************************************************************************************/
 
 @media (max-width: 900px) {
-  nav ul {
-    display: none;
-  }
 
-  #menu-icon {
-    display: flex;
-  }
 
-  #slideout-menu {
-    display: block;
-  }
-
-  #searchbox {
-    display: none;
-  }
 
   #blogpost{
     width:100%;
-    border-left:0;
+    border-right: 90px;
   }
 
   #sidebar{
     display: none;
+  }
+
+  .card,
+  .card .card-image img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
   }
 
   }

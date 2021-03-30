@@ -71,10 +71,17 @@ nav {
   display: flex;
   box-sizing: border-box;
   z-index: 100;
+
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  
 }
 
 nav a {
-  padding: 0 4.5vw;
+  padding: 0 2.5vw;
   color: #eee;
   transition: 0.3s;
 }

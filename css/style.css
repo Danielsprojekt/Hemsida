@@ -354,7 +354,7 @@ footer #social-media-footer ul li:hover a .fa-youtube {
   .card .card-image img {
     max-width: 100%;
     height: auto;
-    width: auto\9; 
+    width: auto; 
   }
 
   }
@@ -366,6 +366,13 @@ footer #social-media-footer ul li:hover a .fa-youtube {
     width: 95%;
   }
 
+  .text-box{
+    max-width: 100%;
+    height: auto;
+    width: auto; 
+  
+  }
+
   section {
     flex-direction: column;
   }
@@ -375,7 +382,7 @@ footer #social-media-footer ul li:hover a .fa-youtube {
   .card .card-image img {
     max-width: 100%;
     height: auto;
-    width: auto\9; 
+    width: auto; 
   }
 
   footer {
@@ -394,7 +401,7 @@ footer #social-media-footer ul li:hover a .fa-youtube {
   .card .card-image img {
     max-width: 100%;
     height: auto;
-    width: auto\9; 
+    width: auto; 
   }
 
   

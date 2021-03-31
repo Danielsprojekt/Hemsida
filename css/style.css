@@ -25,9 +25,22 @@ h3 {
 
 
 
+
+
 p {
   
   line-height: 1.9;
+}
+
+.text-box{
+ 
+  line-height: 3;
+  height:25vw;
+  width:37vw;
+  border: 1px solid rgb(213, 212, 212);
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:auto;
+
 }
 
 main {

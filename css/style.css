@@ -34,7 +34,7 @@ p {
 
 .text-box{
  
-  line-height: 3;
+  line-height: 1.9;
   height:25vw;
   width:37vw;
   border: 1px solid rgb(213, 212, 212);
@@ -48,6 +48,7 @@ main {
 }
 
 a {
+  display: flex;
   text-decoration: none;
   color: black;
 }
@@ -73,21 +74,17 @@ a:hover {
 /* Navigation */
 
 nav {
-
+  margin: auto;
   height: 90px;
   background: #4c5269;
-  width: 100%;
-  margin-left: auto;
-  
   font-family: 'Bungee Inline', sans-serif;
   font-size: 18px;
   display: flex;
-  box-sizing: border-box;
-  z-index: 100;
+  
 }
 
 nav a {
-  padding: 0 1.2vw;
+  padding: 0 1.1vw;
   color: #eee;
   transition: 0.3s;
 }
@@ -102,9 +99,9 @@ nav ul {
   list-style: none;
   justify-content: space-evenly;
   align-items: center;
-  
   margin: 0;
- 
+  padding: 3% 1.1vw;
+  
 }
 
 .active {
@@ -223,7 +220,7 @@ footer a {
 
 
 
-footer #right-footer {
+footer #footer {
 
   flex: 2;
   padding: 8px;
@@ -232,7 +229,7 @@ footer #right-footer {
 }
 footer #ord
 {
-    font-family:    'kristi', sans-serif;
+    font-family: 'kristi', sans-serif;
     
     font-size: 40px;
     
@@ -292,16 +289,6 @@ footer #social-media-footer ul li:hover a .fa-youtube {
 
 
 
-.card-meta{
-  color:#333;
-  font-size: 14px;
-  padding-left:8px;
-  font-family:'Roboto Slab', serif;
-}
-
-.card-meta a{
-  color:#333;
-}
 
 /* Pagination */
 
@@ -326,16 +313,7 @@ footer #social-media-footer ul li:hover a .fa-youtube {
 
 
 
-/* Sidebar */
 
-#sidebar{
-  display:none; /*vet inte varför den ska finnas*/
-  background:#333;
-  flex:1;
-  padding: 8px 16px;
-  color:white;
-  
-}
 
 
 
@@ -348,13 +326,34 @@ footer #social-media-footer ul li:hover a .fa-youtube {
 /***************** Media Queries **************************************************************************************************************/
 
 @media (max-width: 900px) {
+  nav {
+    margin: auto;
+    height: 90px;
+    background: #4c5269;
+    font-family: 'Bungee Inline', sans-serif;
+    font-size: 21px;
+    display: flex;
+    
+  }
+  .text-box{
+    max-width: 100%;
+    height: auto;
+    width: auto; 
+  
+  }
 
+  nav ul {
+    padding: 0 1.1vw;
+    display:flex;
+    list-style: none;
+    
+  }
 
   .card,
   .card .card-image img {
     max-width: 100%;
     height: auto;
-    width: auto; 
+    width: auto\9; 
   }
 
   }
@@ -366,13 +365,6 @@ footer #social-media-footer ul li:hover a .fa-youtube {
     width: 95%;
   }
 
-  .text-box{
-    max-width: 100%;
-    height: auto;
-    width: auto; 
-  
-  }
-
   section {
     flex-direction: column;
   }
@@ -382,7 +374,7 @@ footer #social-media-footer ul li:hover a .fa-youtube {
   .card .card-image img {
     max-width: 100%;
     height: auto;
-    width: auto; 
+    width: auto\9; 
   }
 
   footer {
@@ -401,7 +393,7 @@ footer #social-media-footer ul li:hover a .fa-youtube {
   .card .card-image img {
     max-width: 100%;
     height: auto;
-    width: auto; 
+    width: auto\9; 
   }
 
   
